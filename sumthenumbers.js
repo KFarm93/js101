@@ -6,7 +6,7 @@ function sumNumbers(array) {
     sum = sum + array[count - 1];
     count++;
   }
-  console.log(sum);
+  return sum;
 }
 
-sumNumbers([1, 4, 8]);
+console.log(sumNumbers([1, 4, 8]));
